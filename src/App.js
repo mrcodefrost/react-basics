@@ -2,6 +2,12 @@ import React from 'react'
 import User from './components/User'
 import Password from './components/Password';
 import Cart from './components/Cart';
+import IconsList from './components/IconsList';
+import EventsUse from './components/EventsUse';
+import Counter from './components/Counter';
+import Form from './components/Form';
+import UseEffectComponent from './components/UseEffectComponent';
+import UseContextComponent from './components/UseContextComponent';
 
 
 const userInfoList = [
@@ -57,11 +63,30 @@ function App() {
 
             ))}
 
-            {/*To use conditional operators like if-else */}
-            <Password isValid={true}/>
+            {/* To use conditional operators like if-else */}
+            <Password isValid={true} />
 
-            {/*To use conditional operators && */}
-            <Cart/>
+            {/* To use conditional operators && */}
+            <Cart />
+
+            {/* To use react icons */}
+            <IconsList />
+
+            {/* To use events in react */}
+            <EventsUse />
+
+            {/* To use states in react */}
+            <Counter />
+
+            {/* To use form */}
+            <Form />
+
+            {/* To use useEffects */}
+            <UseEffectComponent />
+
+            {/* To use useContext */}
+            <UseContextComponent />
+
         </>
     )
 }
