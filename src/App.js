@@ -8,6 +8,9 @@ import Counter from './components/Counter';
 import Form from './components/Form';
 import UseEffectComponent from './components/UseEffectComponent';
 import UseContextComponent from './components/UseContextComponent';
+import UseReducerComponent from './components/UseReducerComponent';
+import UseRefComponent from './components/UseRefComponent';
+import UseFetch from './components/UseFetch';
 
 
 const userInfoList = [
@@ -87,6 +90,15 @@ function App() {
             {/* To use useContext */}
             <UseContextComponent />
 
+            {/* To use useReducer */}
+            <UseReducerComponent/>
+
+            {/* To use useRef */}
+            <UseRefComponent/>
+
+            {/* To use useFetch hook with Custom Hook */}
+            <UseFetch/>
+            
         </>
     )
 }
