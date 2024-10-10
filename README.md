@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+References : 
+[Master ReactJS in 7 Hours by Huxn Webdev](https://www.youtube.com/watch?v=XrwsMN2IWnE&t=18s)
 
 ## Available Scripts
 
